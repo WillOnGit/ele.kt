@@ -2,7 +2,7 @@
 
 all: run
 
-main.jar: src/main.kt src/test.kt
+main.jar: src/
 	kotlinc src/ -include-runtime -d main.jar
 
 run: main.jar
