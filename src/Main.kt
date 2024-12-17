@@ -11,8 +11,8 @@ fun main() {
         println("- ${candidate.name}")
     }
 
-    /* declare a winner at random */
-    var winner = candidates.random()
+    val contest = SortitionContest(candidates)
+    val winner = contest.getWinner()
 
     println("The winner is: ${winner.name}")
 }
