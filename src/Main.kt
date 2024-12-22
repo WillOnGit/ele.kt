@@ -11,6 +11,7 @@ fun main() {
         println("- ${candidate.name}")
     }
 
+    /* choose and print a winner at random */
     val contest = SortitionContest(candidates)
     val winner = contest.getWinner()
 
