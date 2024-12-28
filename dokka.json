@@ -1,0 +1,26 @@
+{
+  "moduleName": "ele.kt",
+  "moduleVersion": null,
+  "outputDir": "./dokka/html",
+  "failOnWarning": false,
+  "suppressObviousFunctions": false,
+  "suppressInheritedMembers": false,
+  "offlineMode": true,
+  "includes": [],
+  "sourceSets": [
+    {
+      "displayName": "Default package",
+      "sourceSetID": {
+        "scopeId": "moduleName",
+        "sourceSetName": "main"
+      },
+      "sourceRoots": ["./src/"]
+    }
+  ],
+  "pluginsClasspath": [
+    "dokka/cli/dokka-base-2.0.0.jar",
+    "dokka/cli/kotlinx-html-jvm-0.8.0.jar",
+    "dokka/cli/analysis-kotlin-descriptors-2.0.0.jar",
+    "dokka/cli/freemarker-2.3.31.jar"
+  ]
+}
